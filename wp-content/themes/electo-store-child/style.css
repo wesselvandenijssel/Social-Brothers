@@ -1,0 +1,24 @@
+/*
+Theme Name: Electo Store Child
+Theme URI: https://netnus.com/product/electo-shop-pro-wordpress-theme/
+Template: electo-store
+Author: Netnus
+Author URI: https://www.netnus.com
+Description: Electo Store is a brilliant WordPress theme is made exclusively to sell all sorts of products, like electronics, fashion, books, food, toys mare and more. It comes bundled with Elementor, and it is compatible with WooCommerce. Build any stunning shops related website the smooth way with this amazing theme. It is cross-browser compatible and implemented on bootstrap framework that makes it really handy to use. It comes with powerful admin interface. The theme is mobile-friendly that easily fits in any device screen size. Also, it is SEO-friendly that takes care of your website’s search engine ranking. It is highly customizable with no coding knowledge required. You can import demo content with one-click demo import option. You can add social media pages using widgets. It is fully responsive that fits perfectly in all devices, be it desktop, mobile or tabs. It comes with clean, secure and optimized codes. Also, the theme loads faster as the pages are optimized for speed. Demo: https://netnus.net/electo/
+Tags: left-sidebar,right-sidebar,one-column,two-columns,three-columns,four-columns,grid-layout,flexible-header,wide-blocks,block-styles,custom-background,custom-logo,custom-menu,custom-header,editor-style,featured-images,footer-widgets,sticky-post,full-width-template,theme-options,threaded-comments,rtl-language-support,e-commerce,food-and-drink,blog
+Version: 0.1.1644480197
+Updated: 2022-02-10 08:03:17
+
+*/
+#comments{
+	display: flex !important;
+}
+.woocommerce td.product-name dl.variation:last-child{
+	margin-bottom: 1rem;
+}
+.woocommerce td.product-name dl.variation dd{
+	margin-bottom: 0.5rem;
+}
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+	min-height: 450px;
+}
